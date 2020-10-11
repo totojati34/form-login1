@@ -35,7 +35,7 @@
 
 .form-icons {
     display: flex;
-    /* background-color: #66adff; */
+    background-color: #66adff;
     width: 150px;
     margin: auto;
     justify-content: space-around;
