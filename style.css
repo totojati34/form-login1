@@ -4,8 +4,12 @@
     font-family: sans-serif;
 }
 
+body {
+    overflow-y: hidden;
+}
+
 .hero {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(img/sekre-hd.jpg);
     background-position: center;
@@ -35,7 +39,7 @@
 
 .form-icons {
     display: flex;
-    background-color: #66adff;
+    /* background-color: #66adff; */
     width: 150px;
     margin: auto;
     justify-content: space-around;
